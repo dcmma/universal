@@ -1,0 +1,190 @@
+if game.PlaceId == 8657766101 then
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
+    wait(6) then
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Marvellous Playground Detected.", -- Required
+        Text = "Enjoy.", -- Required
+    })
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    setclipboard("hlvipcomingsoon")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Murder Mystery 2 Detected", -- Required
+        Text = "The key has been copied to your clipboard.", -- Required
+    })
+elseif game.PlaceId == 205224386 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader'))()
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Hide and Seek Extreme Detected", -- Required
+        Text = "Enjoy.", -- Required
+    })
+elseif game.PlaceId == 6403373529 then
+    loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-Slap-Battles-Forge-Hub-18488"))()
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Slap Battles Detected", -- Required
+        Text = "This script does have a key system.", -- Required
+    })
+elseif game.PlaceId == 155615604 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Rayanitoo/prison-life-v-1.0/refs/heads/main/made%20by%20rayan'))()
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Prison Life Detected", -- Required
+        Text = "Enjoy.", -- Required
+    })
+elseif game.PlaceId == 6872265039 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
+    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Bedwars Detected", -- Required
+        Text = "Enjoy.", -- Required
+    })
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "No Game Detected", -- Required
+        Text = "This game is not recognized.", -- Required
+    })
+end
+
+-- Function to create the custom prompt with Yes/No buttons and handle user input
+local function askExecuteInfiniteYield()
+    local player = game.Players.LocalPlayer
+    local playerGui = player:WaitForChild("PlayerGui")
+
+    -- Wait for 5 seconds before showing the custom GUI
+    wait(5)
+
+    -- Create a custom ScreenGui for the Yes/No prompt
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Parent = playerGui
+
+    -- Create a Frame to hold the notification UI
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0, 300, 0, 150)
+    frame.Position = UDim2.new(1, -220, 1, -100) -- Closer to the bottom-right corner
+    frame.BackgroundColor3 = Color3.fromRGB(28, 28, 28) -- Dark background
+    frame.BackgroundTransparency = 0.15
+    frame.BorderSizePixel = 0
+    frame.AnchorPoint = Vector2.new(1, 1) -- Align to bottom-right corner
+    frame.Parent = screenGui
+
+    -- Rounded corners for the frame
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 16)
+    corner.Parent = frame
+
+    -- Create a label for the message
+    local label = Instance.new("TextLabel")
+    label.Size = UDim2.new(1, 0, 0.4, 0)
+    label.Position = UDim2.new(0, 0, 0, 0)
+    label.Text = "Execute Infinite Yield?"
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)  -- White text
+    label.BackgroundTransparency = 1
+    label.TextScaled = true
+    label.Font = Enum.Font.Gotham
+    label.Parent = frame
+
+    -- Create a container frame for the buttons (horizontal layout)
+    local buttonFrame = Instance.new("Frame")
+    buttonFrame.Size = UDim2.new(1, 0, 0.4, 0)
+    buttonFrame.Position = UDim2.new(0, 0, 0.6, 0)  -- Position below the label
+    buttonFrame.BackgroundTransparency = 1
+    buttonFrame.Parent = frame
+
+    -- Create a "Yes" button with rounded corners and subtle hover effect
+    local yesButton = Instance.new("TextButton")
+    yesButton.Size = UDim2.new(0.4, 0, 1, 0) -- 40% of the width
+    yesButton.Position = UDim2.new(0, 0, 0, 0) -- Align to the left
+    yesButton.Text = "Yes"
+    yesButton.BackgroundColor3 = Color3.fromRGB(76, 175, 80) -- Green
+    yesButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- White text
+    yesButton.Font = Enum.Font.Gotham
+    yesButton.TextScaled = true
+    yesButton.BorderSizePixel = 0
+    yesButton.Parent = buttonFrame
+
+    -- Rounded corners for the "Yes" button
+    local yesButtonCorner = Instance.new("UICorner")
+    yesButtonCorner.CornerRadius = UDim.new(0, 12)
+    yesButtonCorner.Parent = yesButton
+
+    -- Add hover effect for "Yes" button
+    yesButton.MouseEnter:Connect(function()
+        yesButton.BackgroundColor3 = Color3.fromRGB(56, 142, 60) -- Darker green
+    end)
+    yesButton.MouseLeave:Connect(function()
+        yesButton.BackgroundColor3 = Color3.fromRGB(76, 175, 80) -- Original green
+    end)
+
+    -- Create a "No" button with rounded corners and subtle hover effect
+    local noButton = Instance.new("TextButton")
+    noButton.Size = UDim2.new(0.4, 0, 1, 0) -- 40% of the width
+    noButton.Position = UDim2.new(0.6, 0, 0, 0) -- Position next to the "Yes" button
+    noButton.Text = "No"
+    noButton.BackgroundColor3 = Color3.fromRGB(244, 67, 54) -- Red
+    noButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- White text
+    noButton.Font = Enum.Font.Gotham
+    noButton.TextScaled = true
+    noButton.BorderSizePixel = 0
+    noButton.Parent = buttonFrame
+
+    -- Rounded corners for the "No" button
+    local noButtonCorner = Instance.new("UICorner")
+    noButtonCorner.CornerRadius = UDim.new(0, 12)
+    noButtonCorner.Parent = noButton
+
+    -- Add hover effect for "No" button
+    noButton.MouseEnter:Connect(function()
+        noButton.BackgroundColor3 = Color3.fromRGB(211, 47, 47) -- Darker red
+    end)
+    noButton.MouseLeave:Connect(function()
+        noButton.BackgroundColor3 = Color3.fromRGB(244, 67, 54) -- Original red
+    end)
+
+    -- Timeout logic: If the player doesn't click within 10 seconds, print the timeout message
+    local timeout = 10
+    local startTime = tick()
+
+    -- Function to handle when the "Yes" button is clicked
+    yesButton.MouseButton1Click:Connect(function()
+        -- Execute the Infinite Yield script if Yes is clicked
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        screenGui:Destroy()  -- Close the prompt
+    end)
+
+    -- Function to handle when the "No" button is clicked
+    noButton.MouseButton1Click:Connect(function()
+        -- Print the decline message in the console
+        print("Infinite Yield declined.")
+        screenGui:Destroy()  -- Close the prompt
+    end)
+
+    -- Wait for the user to either click Yes or No or the timeout to occur
+    local userResponded = false
+    while tick() - startTime < timeout do
+        -- If the user clicks Yes or No, respond accordingly
+        if not screenGui.Parent then  -- If the GUI is destroyed (Yes or No clicked)
+            userResponded = true
+            return
+        end
+        wait(0.1)
+    end
+
+    -- If timeout reached without clicking, print the timeout message
+    if not userResponded then
+        print("Infinite Yield request timed out.")
+        screenGui:Destroy()  -- Destroy the prompt after timeout
+    end
+end
+
+-- Trigger the prompt after 5 seconds
+askExecuteInfiniteYield()
