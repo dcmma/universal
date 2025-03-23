@@ -1,17 +1,11 @@
 if game.PlaceId == 8657766101 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337"))()
-    wait(6) then
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Marvellous Playground Detected.", -- Required
         Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-    wait(6)
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     setclipboard("hlvipcomingsoon")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Murder Mystery 2 Detected", -- Required
@@ -19,36 +13,24 @@ elseif game.PlaceId == 142823291 then
     })
 elseif game.PlaceId == 205224386 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader'))()
-    wait(6)
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Hide and Seek Extreme Detected", -- Required
         Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 6403373529 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-Slap-Battles-Forge-Hub-18488"))()
-    wait(6)
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Slap Battles Detected", -- Required
         Text = "This script does have a key system.", -- Required
     })
 elseif game.PlaceId == 155615604 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Rayanitoo/prison-life-v-1.0/refs/heads/main/made%20by%20rayan'))()
-    wait(6)
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Prison Life Detected", -- Required
         Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 6872265039 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
-    wait(6)
-    script_key="lEIZIMagJERXiTxdPRDiYkkmPFUApsTk";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5820fe04a55658c1bfdefc164fac4296.lua"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Bedwars Detected", -- Required
         Text = "Enjoy.", -- Required
