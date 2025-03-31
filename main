@@ -17,7 +17,7 @@ elseif game.PlaceId == 205224386 then
         Title = "Hide and Seek Extreme Detected", -- Required
         Text = "Enjoy.", -- Required
     })
-elseif game.PlaceId == 6403373529 then
+elseif game.PlaceId == 6403373529 or 124596094333302 then
     loadstring(game:HttpGet("https://rawscripts.net/raw/UPDATE-Slap-Battles-Forge-Hub-18488"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Slap Battles Detected", -- Required
