@@ -23,6 +23,13 @@ elseif game.PlaceId == 6403373529 or 124596094333302 then
         Title = "Slap Battles Detected", -- Required
         Text = "This script does have a key system.", -- Required
     })
+elseif game.PlaceId == 189707 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/Six-Hub/NaturalDisaster'))()
+    setclipboard("sixhub_key2025lol")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Natural Disaster Survival Detected", -- Required
+        Text = "The key has been copied to your clipboard.", -- Required
+    })
 elseif game.PlaceId == 155615604 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Rayanitoo/prison-life-v-1.0/refs/heads/main/made%20by%20rayan'))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
