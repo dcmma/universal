@@ -6,10 +6,9 @@ if game.PlaceId == 8657766101 then
     })
 elseif game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-    setclipboard("hlvipcomingsoon")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Murder Mystery 2 Detected", -- Required
-        Text = "The key has been copied to your clipboard.", -- Required
+        Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 205224386 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader'))()
