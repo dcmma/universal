@@ -33,7 +33,7 @@ elseif game.PlaceId == 286090429 then
     task.wait(1)
     loadstring(game:HttpGet("https://pastebin.com/raw/iv9qAHZP"))()
     task.wait(1)
-    print("Enable "Enabled, TeamCheck, Box, Boxfill, Tracers, HealthESP, HealthBar.")
+    print("Enable these: Enabled, TeamCheck, Box, Boxfill, Tracers, HealthESP, HealthBar.")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Arsenal Detected", -- Required
         Text = "Enjoy. Check console for ESP configuration.", -- Required
