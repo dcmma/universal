@@ -28,6 +28,13 @@ elseif game.PlaceId == 155615604 then
         Title = "Prison Life Detected", -- Required
         Text = "Enjoy.", -- Required
     })
+elseif game.PlaceId == 189707 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
+    setclipboard("27jUkl")
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Natural Disaster Survival Detected", -- Required
+        Text = "Key copied to clipboard, use NullFire", -- Required
+    })
 elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://soluna-script.vercel.app/arsenal.lua",true))()
     task.wait(1)
