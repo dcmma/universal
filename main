@@ -61,6 +61,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53325754de16c1
         Title = "Rivals Detected", -- Required
         Text = "This script does have a small key system.", -- Required
     })
+elseif game.PlaceId == 109983668079237 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalsabhelper/refs/heads/main/script"))() --nested loadstring
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Steal a Brainrot", -- Required
+        Text = "This script does have a retarded key system.", -- Required
+    })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "No Game Detected", -- Required
