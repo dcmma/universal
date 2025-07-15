@@ -62,12 +62,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/53325754de16c1
         Text = "This script does have a small key system.", -- Required
     })
 elseif game.PlaceId == 109983668079237 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalsabhelper/refs/heads/main/script"))() --nested loadstring
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AkunDiscoOfficial/WindUI-Fork/refs/heads/main/src/elements/newbrainrots.txt"))() --nested loadstring
     wait(.5)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalsabhelper2/refs/heads/main/script"))() -- copies sab tracker webhook on f7
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Steal a Brainrot", -- Required
-        Text = "This script does have a retarded key system.", -- Required
+        Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 96342491571673 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dcmma/universalsabhelper/refs/heads/main/script"))() --nested loadstring
