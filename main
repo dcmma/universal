@@ -29,11 +29,10 @@ elseif game.PlaceId == 155615604 then
         Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 189707 then
-    loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
-    setclipboard("27jUkl")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codexxscripts/Script/refs/heads/main/Protected_7867058958573066.lua.txt"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Natural Disaster Survival Detected", -- Required
-        Text = "Key copied to clipboard, use NullFire", -- Required
+        Text = "Enjoy.", -- Required
     })
 elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://soluna-script.vercel.app/arsenal.lua",true))()
