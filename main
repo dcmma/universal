@@ -36,13 +36,9 @@ elseif game.PlaceId == 189707 then
     })
 elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://soluna-script.vercel.app/arsenal.lua",true))()
-    task.wait(1)
-    loadstring(game:HttpGet("https://pastebin.com/raw/iv9qAHZP"))()
-    task.wait(1)
-    print("Enable these: Enabled, TeamCheck, Box, Boxfill, Tracers, HealthESP, HealthBar.")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Arsenal Detected", -- Required
-        Text = "Enjoy. Check console for ESP configuration.", -- Required
+        Text = "Enjoy.", -- Required
 })
 elseif game.PlaceId == 17625359962 then
     -- loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/main.lua"))() old script
