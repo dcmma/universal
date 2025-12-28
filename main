@@ -62,6 +62,12 @@ elseif game.PlaceId == 96342491571673 then
         Title = "Steal a Brainrot [New Players]", -- Required
         Text = "This script does have a retarded key system.", -- Required
     })
+elseif game.PlaceId == 2809202155 then
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fdbac487b2e7ceafb89f7c26351fddb6.lua"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "YBA", -- Required
+        Text = "Welcome Back, Enjoy.", -- Required
+    })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "No Game Detected", -- Required
