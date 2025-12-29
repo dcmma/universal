@@ -74,6 +74,12 @@ elseif game.PlaceId == 94590879393563 then
         Title = "Weird Gun Game", -- Required
         Text = "Enjoy.", -- Required
     })
+elseif game.PlaceId == 2248408710 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/P9rmutgq"))()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Destruction Simulator", -- Required
+        Text = "Enjoy.", -- Required
+    })
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "No Game Detected", -- Required
