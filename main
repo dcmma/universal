@@ -97,7 +97,7 @@ elseif game.PlaceId == 2248408710 then
 elseif game.PlaceId == 192800 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place'),true))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Destruction Simulator", -- Required
+        Title = "Work at a Pizza Place", -- Required
         Text = "Enjoy.", -- Required
     })
 else
