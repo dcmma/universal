@@ -117,7 +117,8 @@ elseif gid == 142823291 then
     notify("MM2", "Enjoy.")
 
 elseif pid == 9391468976 then
-    run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
+    run("https://peeky.pythonanywhere.com/DaHoodGui")
+    run("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/InvisibleBlock.lua")
     notify("Jujutsu Shenanigans", "Enjoy.")
 
 else
