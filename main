@@ -118,7 +118,8 @@ elseif gid == 142823291 then
 
 elseif pid == 9391468976 then
     run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
-    notify("The Forge | Frostspire Expanse", "Enjoy.")
+    run("https://raw.githubusercontent.com/NotEnoughJack/LuaFluentDependancies/refs/heads/main/InvisibleBlock.lua")
+    notify("Jujutsu Shenanigans", "Enjoy.")
 
 else
     notify("No Game Detected", "This game is not recognized.")
