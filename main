@@ -118,7 +118,6 @@ elseif gid == 142823291 then
 
 elseif pid == 9391468976 then
     run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/culler.lua")
-    run("https://raw.githubusercontent.com/dcmma/ennyscript/refs/heads/main/jjsautocopy")
     notify("Jujutsu Shenanigans", "Enjoy.")
 
 elseif gid == 70845479499574 then
