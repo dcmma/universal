@@ -122,7 +122,7 @@ elseif pid == 9391468976 then
     notify("Jujutsu Shenanigans", "Enjoy.")
 
 elseif gid == 70845479499574 then
-    run("https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua)
+    run("https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua")
     notify("MM2", "Enjoy.")
 
 else
