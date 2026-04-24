@@ -89,7 +89,6 @@ elseif pid == 94590879393563 then
 
 elseif pid == 2248408710 then
     run("https://pastebin.com/raw/P9rmutgq")
-    task.wait(5)
     run("https://raw.githubusercontent.com/dcmma/lifeaautosteal/refs/heads/main/script")
     notify("Destruction Simulator", "Enjoy.")
 
@@ -115,6 +114,8 @@ elseif gid == 142823291 then
 
 elseif pid == 9391468976 then
     run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/thisissomuchcullerthanbefore.lua")
+    task.wait(
+    run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
     notify("Jujutsu Shenanigans", "1s Cooldown & Hotkeys Ready.")
 
     local UIS = game:GetService("UserInputService")
