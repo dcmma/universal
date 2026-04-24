@@ -114,7 +114,6 @@ elseif gid == 142823291 then
 
 elseif pid == 9391468976 then
     run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/thisissomuchcullerthanbefore.lua")
-    task.wait(
     run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
     notify("Jujutsu Shenanigans", "1s Cooldown & Hotkeys Ready.")
 
