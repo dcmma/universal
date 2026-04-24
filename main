@@ -27,10 +27,6 @@ if pid == 8657766101 then
     run("https://rawscripts.net/raw/Marvellous-Playground-ST-HUB-UPDATED-30337")
     notify("Marvellous Playground Detected", "Enjoy.")
 
-elseif pid == 142823291 then
-    run("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main")
-    notify("Murder Mystery 2 Detected", "Enjoy.")
-
 elseif pid == 205224386 then
     run("https://raw.githubusercontent.com/Hn1-Hub/Hn1_KeysTests/refs/heads/main/Hn1%20Hub%20Loader")
     notify("Hide and Seek Extreme Detected", "Enjoy.")
