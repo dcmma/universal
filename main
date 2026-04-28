@@ -156,7 +156,7 @@ elseif gid == 70845479499574 then
     run("https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua")
     notify("MM2", "Enjoy.")
 
-elseif gid == 126884695634066 then
+elseif pid == 126884695634066 then
     run("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
     notify("GaG", "Small, Bypassable Key System.")
 
