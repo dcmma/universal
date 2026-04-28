@@ -61,12 +61,6 @@ elseif pid == 99567941238278 then
     run("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua")
     notify("Ink Game", "Enjoy.")
 
-elseif pid == 126884695634066 then
-    _G.script_key = "UrCZOnpWHQoPuQNPjWVNrVUdyecFsdwv"
-    _G.premium = true
-    run("https://get.nathub.xyz/loader")
-    notify("Grow a Garden", "Enjoy, Premium User!")
-
 elseif pid == 2809202155 then
     run("https://raw.githubusercontent.com/Vezise/vezzyscripts/main/xenonv3_source")
     notify("YBA", "Welcome back, enjoy.")
