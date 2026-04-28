@@ -160,6 +160,10 @@ elseif pid == 126884695634066 then
     run("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
     notify("GaG", "Small, Bypassable Key System.")
 
+elseif pid == 142823291 then
+    run("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
+    notify("MM2", "Enjoy.")
+
 else
     notify("No Game Detected", "This game is not recognized.")
 end
