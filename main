@@ -105,10 +105,7 @@ elseif gid == 142823291 then
     notify("MM2", "Enjoy.")
 
 elseif pid == 9391468976 then
-    run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/thisissomuchcullerthanbefore.lua")
-    run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
-    notify("Jujutsu Shenanigans", "1s Cooldown & Hotkeys Ready.")
-
+    -- LOGIC MOVED TO TOP OF BLOCK
     local UIS = game:GetService("UserInputService")
     local hotkeySettings = {
         [Enum.KeyCode.J] = {
@@ -152,6 +149,13 @@ elseif pid == 9391468976 then
                 notify("Config Copied", input.KeyCode.Name .. " triple-tapped.")
             end
         end
+    end)
+
+    -- SCRIPTS RUN SEPARATELY SO THEY DON'T BLOCK
+    task.spawn(function()
+        run("https://raw.githubusercontent.com/damir512/CullingHubv1.0/refs/heads/main/thisissomuchcullerthanbefore.lua")
+        run("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript")
+        notify("Jujutsu Shenanigans", "1s Cooldown & Hotkeys Ready.")
     end)
 
 elseif gid == 70845479499574 then
