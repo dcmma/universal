@@ -95,7 +95,7 @@ elseif gid == 7671049560 then
     notify("The Forge | Frostspire Expanse", "Enjoy.")
 
 elseif gid == 142823291 then
-    run("https://raw.githubusercontent.com/Aura-56/MurderMystery2/refs/heads/main/AzureHub.lua")
+    run("https://raw.githubusercontent.com/xv3gasx/Murder-Mystery-2/refs/heads/main/Release.lua")
     notify("MM2", "Enjoy.")
 
 elseif pid == 9391468976 then
