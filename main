@@ -168,6 +168,10 @@ elseif pid == 6872265039 then
     run("https://alsploit.bedwars.workers.dev/LoadstringAlSploitPurpleBlastReborn.lua")
     notify("BedWars", "No Key System.")
 
+elseif pid == 606849621 then
+    run("https://raw.githubusercontent.com/dcmma/JBautohelper/refs/heads/main/main")
+    notify("Jailbreak", "Easiest Key System Ever.")
+
 else
     notify("No Game Detected", "This game is not recognized.")
 end
