@@ -53,7 +53,7 @@ elseif pid == 17625359962 then
     run("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua")
     notify("Rivals Detected", "Small key system.")
 
-elseif pid == 6035872082 then
+elseif gid == 6035872082 then
     run("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua")
     notify("Rivals (1v1's) Detected", "Small key system.")
 
